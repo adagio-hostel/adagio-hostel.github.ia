@@ -1,0 +1,78 @@
+
+
+
+
+
+img {
+    margin-top: 12px;
+    max-width: 100%;
+}
+
+.iframe {
+    max-width: 100%;
+    
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(224, 229, 227);
+}
+
+.navbar-brand {
+    color: rgb(244, 164, 3);
+}
+
+.navbar-toggler {
+    background-color: rgb(224, 229, 227) ;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.footer-text {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 576px) {
+    iframe {
+     width: 100%;
+    }
+}
+
+.container-sm {
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    margin: 0;
+    padding: 0;
+   }
+
+h2::after {
+    content: '';
+    background-color: black;
+    height: 1px;
+    display: block;
+   }
+
+.page {
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+   }
